@@ -105,7 +105,84 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <!--PARTE 3-->
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <!--título - bloco 1-->
+
+          <form class="form reservation__form">
+            <!--Bloco 2-->
+            <fieldset class="form form__item">
+              <!--Bloco 3-->
+              <label for="name" class="form__label"> Nome *</label>
+              <!--class="form__label"-->
+              <!--Bloco 4-->
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Nome"
+                required
+              />
+              <!--Bloco 5-->
+              <label for="invite_number" class="form__label">
+                Número de Convidados *</label
+              >
+              <!--Bloco 4-->
+              <input
+                type="number"
+                class="form__input"
+                id="invite_number"
+                name="invite_number"
+                placeholder="1 - 8"
+                min="1"
+                max="8"
+                required
+              />
+              <!--Bloco 5-->
+
+              <label for="date-hour" class="form__label"> Data e Hora *</label>
+              <!--Bloco 4-->
+              <input
+                type="date"
+                class="form__input"
+                id="date-hour"
+                name="date-hour"
+                required
+              />
+              <!--Bloco 5-->
+
+              <label for="mail" class="form__label"> Seu e-mail *</label>
+              <!--Bloco 4-->
+              <input
+                type="email"
+                class="form__input"
+                id="mail"
+                name="mail"
+                placeholder="email@email.com"
+                required
+              />
+              <!--Bloco 5-->
+
+              <button type="submit" class="form__button">
+                Reservar uma mesa
+              </button>
+              <!--Bloco 6-->
+
+              <label class="form__label">
+                <!--Bloco 7-->
+                <input
+                  type="checkbox"
+                  name="extra-option"
+                  class="form__label"
+                  value="bold-heading"
+                />Eu concordo com os termos de uso</label
+              >
+              <!--Bloco 4-->
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

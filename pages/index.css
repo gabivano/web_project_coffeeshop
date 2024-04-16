@@ -63,7 +63,7 @@ ul {
 }
 
 .header__span-accent {
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
@@ -73,7 +73,7 @@ ul {
 }
 
 .header__description {
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -193,4 +193,119 @@ ul {
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  position: relative;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  /*Bloco 1*/
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  padding-top: 100px;
+}
+
+.form {
+  /*Bloco 2*/
+  border: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+  margin-bottom: 120px;
+}
+
+.reservation__form {
+  /*Bloco 2*/
+  box-sizing: border-box;
+}
+
+.form__item {
+  /*Bloco 3*/
+}
+
+.form__label {
+  /*Bloco 4*/
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  padding-bottom: 8px;
+  margin-top: 32px;
+  display: flex;
+  align-items: baseline;
+  display: flex;
+  align-items: baseline;
+}
+
+.form__input {
+  /*Bloco 5*/
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin: auto;
+  width: 100%;
+}
+
+.form__button {
+  /*Bloco 6*/
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  border-radius: 4px;
+  width: 385px;
+  color: #ffffff;
+  background-color: #2f80ed;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*criar hover*/
+}
+
+.reservation__form-checkbox {
+  /*Bloco 7*/
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reservation__item_check {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  margin-top: 32px;
 }
