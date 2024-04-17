@@ -13,7 +13,7 @@
   margin-bottom: 108px;
 } /*Bloco 1*/
 
-.logo {
+.footer__logo {
   width: 105px;
   height: 39px;
   position: relative;
@@ -29,7 +29,7 @@
   color: #fff;
 } /*Bloco 4*/
 
-.social-heading {
+.footer__social-heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -39,7 +39,7 @@
   margin-top: 0;
 } /*Bloco 5*/
 
-.list {
+.footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
