@@ -20,7 +20,7 @@
   z-index: 20;
 } /*Bloco 2*/
 
-.social {
+.footer__social {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -73,7 +73,7 @@
   height: 16px;
 } /*Bloco 9*/
 
-.circle {
+.footer__circle {
   background-color: #2f80ed;
   width: 340px;
   height: 340px;
@@ -84,7 +84,7 @@
   z-index: 10;
 } /*Bloco 3*/
 
-.copyright {
+.footer__copyright {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
