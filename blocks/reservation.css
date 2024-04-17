@@ -28,3 +28,8 @@
   margin-bottom: 80px;
   padding-top: 100px;
 }
+
+.reservation__form {
+  /*Bloco 2*/
+  box-sizing: border-box;
+}
